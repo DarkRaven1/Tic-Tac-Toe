@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: 650px;
+  background-color: rgb(25, 25, 25);
+  font-family: Arial;
+}
+.main-div {
+  margin-top: 80px;
+}
+.page-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  column-gap: 16px;
+}
+.button-div {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  column-gap: 6px;
+  row-gap: 6px;
+}
+button {
+  width: 96px;
+  height: 96px;
+  border: none;
+  background-color: rgb(25, 25,25);
+  color: white;
+
+}
+
+.restart-button {
+  width: 300px;
+  margin-top: 15px;
+  background-color: rgb(149, 0, 255);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.restart-button:hover {
+  opacity: 0.8;
+}
+.restart-button:active {
+  opacity: 0.5;
+}
+
+.images {
+  width: 100%;
+}
+
+.player-one-div,
+.player-two-div {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-one-text,
+.player-two-text {
+  font-size: 34px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.player-one-text {
+  color: rgb(47, 175, 255);
+  border-bottom: 6px solid rgb(25, 25, 25);
+}
+.player-one-turn {
+  border-color: blue;
+}
+
+.player-two-text {
+  color: rgb(255, 94, 94);
+  border-bottom: 6px solid rgb(25, 25, 25);
+}
+.player-two-turn {
+  border-color: red;
+}
+.player-one-wins,
+.player-two-wins {
+  font-size: 20px;
+}
+
+.player-one-win-title,
+.player-two-win-title {
+  display: inline-block;
+  font-size: 50px;
+  position: absolute;
+  top: 110px;
+  color: rgb(249, 241, 0);
+}
+
+.draw-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+
